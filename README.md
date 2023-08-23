@@ -1,7 +1,7 @@
 # AnalogClock-1
 
 *😁 This is my analog clock*
-- [Demo Project](https://masoomi1396.github.io/AnalogClock-1/)
+- [Demo Project](https://masoomi1396.github.io/AnalogClock1/)
 - Developed by Amirmohammad Masoumi
 - Created - 2023-08-23
 - 🤖 Technologies Used - Html , Css , Tailwind , Js
