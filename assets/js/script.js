@@ -5,11 +5,8 @@ function analogClock()
 {
     const date = new Date();
     const seconds = date.getSeconds() ;
-    const minutes = date.getMinutes() ;
-    const hours  = date.getHours() ;
-    console.log("Seconds: "+date.getSeconds());
-    console.log("Minutes: "+date.getMinutes());
-    console.log("Hours: "+date.getHours());
+    const minutes = date.getMinutes() + (seconds / 60);
+    const hours  = date.getHours() + (minutes / 60);
     handsRotate(seconds,secondsHand);
     handsRotate(minutes,minutesHand);
     handsRotate(hours,hoursHand);

@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="assets/css/input.css">
     <script defer src="assets/js/script.js"></script>
 </head>
-<body class="w-screen h-screen flex justify-center content-center items-center">
+<body class="w-screen h-screen flex justify-center content-center items-center bg-slate-100">
     <section class="container mx-auto flex justify-center items-center"> 
-        <div class="w-[500px] h-[500px]  rounded-full relative flex justify-center overflow-hidden items-center bg-gray-400 ">
+        <div class="w-full md:w-[500px] md:h-[500px]  rounded-full relative flex justify-center overflow-hidden items-center shadow-2xl shadow-black  ">
             <img class="w-full h-full" src="assets/img/clock-fullview.png" alt="">
-            <div class="circle bg-gray-600 -translate-x-[50%] -translate-y-[50%] rounded-full w-[25px] h-[25px] absolute left-[50%] top-[50%]"></div>
-            <div class="hours bottom-[50%] left-[50%] -translate-x-[50%] -translate-y-[9%] w-[12px] absolute h-[130px] bg-black origin-bottom"></div>
-            <div class="minutes bottom-[50%] left-[50%] -translate-x-[50%] -translate-y-[6%] w-[12px] absolute h-[190px] bg-blue-700 origin-bottom"></div>
-            <div class="seconds bottom-[50%] left-[50%] -translate-x-[50%] -translate-y-[5%] w-[6px] absolute h-[210px] bg-red-700 origin-bottom"></div>
+            <div class="circle top-[50%] left-[50%] bg-gray-600 -translate-x-[50%] -translate-y-[50%] rounded-full w-[25px] h-[25px] absolute"></div>
+            <div class="hours  -translate-y-[50%] w-[12px] absolute h-[130px] bg-black origin-center "></div>
+            <div class="minutes -translate-y-[50%] w-[12px] absolute h-[190px] bg-blue-700 origin-center "></div>
+            <div class="seconds -translate-y-[50%] w-[6px] absolute h-[210px] bg-red-700 origin-center  "></div>
         </div>
     </section>
 </body>
